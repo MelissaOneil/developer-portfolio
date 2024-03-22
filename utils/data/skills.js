@@ -2,23 +2,25 @@ export const skillsData = [
   'HTML',
   'CSS',
   'Javascript',
-  'Typescript',
   'React',
-  'Next JS',
-  'Tailwind',
   'MongoDB',
   'MySQL',
-  'PostgreSQL',
   'Git',
-  'AWS',
   'Bootstrap',
-  'Docker',
-  'Go',
-  'Figma',
   'Firebase',
-  'MaterialUI',
-  'Nginx',
-  'Strapi'
+  'Node JS',
+  //'Express JS',
+  'ASP.NET',
+  'C#',
+  'Python',
+  'Django',
+  //'Json',
+  'Ruby',
+  'Ruby on Rails',
+  'Java'
+  //'Web API',
+  //'REST API',
+  //'Razor'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
@@ -28,6 +30,84 @@ export const skillsData = [
 // AVAILABLE SKILLS
 
 /* 
+Adobe Audition
+Adobe XD
+After Effects
+Angular
+AWS
+Azure
+Bootstrap
+Bulma
+Blender
+Canva
+CapacitorJs
+C
+C++
+C#
+Coffeescript
+CSS
+Deno
+Dart
+Docker
+Django
+Fastify
+Figma
+Firebase
+Flutter
+GCP
+Git
+Gimp
+Go
+Graphql
+HTML
+Haxe
+Ionic
+Illustrator
+Java
+JS
+Julia
+Kotlin
+Lightroom
+Markdown
+MaterialUI
+MemSQL
+Microsoft Office
+MongoDB
+MySQL
+Next JS
+Nginx
+Node JS
+Numpy
+Nuxt JS
+OpenCV
+PHP
+Photoshop
+Picsart
+Premiere Pro
+PostgreSQL
+Python
+Pytorch
+React
+Ruby
+Selenium
+Sketch
+Svelte
+Strapi
+Swift
+Tailwind
+Tensorflow
+Typescript
+Ubuntu
+Unity
+ViteJS
+Vue
+VuetifyJS
+Webex
+Wordpress
+WolframAlpha
+
+
+
   HTML
   CSS
   JS 

@@ -72,11 +72,20 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import nodejs from '/public/svg/skills/nodejs.svg';
+import dotnet from '/public/svg/skills/dotnet.svg';
+import rails from '/public/svg/skills/rails.png';
 
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'ruby on rails':
+      return rails;
+    case 'asp.net':
+      return dotnet;
+    case 'node js':
+      return nodejs;
     case 'gcp':
       return gcp;
     case 'html':
