@@ -101,9 +101,9 @@ function HeroSection() {
                             </div>
                             <div>
                                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-                                <span className="text-gray-400">{`&apos`}</span>
+                                <span className="text-gray-400">{`'`}</span>
                                 <span className="text-amber-300">Melissa ONeil</span>
-                                <span className="text-gray-400">{`&apos,`}</span>
+                                <span className="text-gray-400">{`',`}</span>
                             </div>
                             <div className="ml-4 lg:ml-8 mr-2">
                                 <span className=" text-white">skills:</span>
@@ -126,25 +126,7 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Java</span>
                 <span className="text-gray-400">{"'],"}</span>
-                                {/* <span className="text-gray-400">{`[&apos;`}</span>
-                                <span className="text-amber-300">React</span>
-                                <span className="text-gray-400">{`&apos;, &apos;`}</span>
-                                <span className="text-amber-300">C#</span>
-                                <span className="text-gray-400">{`&apos;, &apos;`}</span>
-                                <span className="text-amber-300">ASP.NET</span>
-                                <span className="text-gray-400">{`&apos;, &apos;`}</span>
-                                <span className="text-amber-300">Express</span>
-                                <span className="text-gray-400">{`&apos;, &apos;`}</span>
-                                <span className="text-amber-300">Ruby</span>
-                                <span className="text-gray-400">{`&apos;, &apos;`}</span>
-                                <span className="text-amber-300">MySql</span>
-                                <span className="text-gray-400">{`&apos;, &apos;`}</span>
-                                <span className="text-amber-300">MongoDB</span>
-                                <span className="text-gray-400">{`&apos;, &apos;`}</span>
-                                <span className="text-amber-300">Django</span>
-                                <span className="text-gray-400">{`&apos;, &apos;`}</span>
-                                <span className="text-amber-300">Java</span>
-                                <span className="text-gray-400">{`&apos;]`}</span> */}
+
                             </div>
                             <div>
                                 <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
