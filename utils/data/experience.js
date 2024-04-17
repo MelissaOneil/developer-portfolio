@@ -20,7 +20,19 @@ export const experiences = [
   {
     id: 4,
     title: "Human Resources Manager",
-    company: "Lundberg & Associates",
+    company: "Lundberg & Associates in Salt Lake City, UT",
     duration: "(Feb 2002 - May 2008)"
+  },
+  {
+    id: 5,
+    title: "Paralegal",
+    company: "Whatcott, Barrett & Hagen, P.C. in Salt Lake City, UT",
+    duration: "(Sept 2001 - Feb 2002)"
+  },
+  {
+    id: 6,
+    title: "Paralegal",
+    company: "Winward Law Office in Ogden, UT",
+    duration: "(Aug 1999 - Sept 2001)"
   }
 ]

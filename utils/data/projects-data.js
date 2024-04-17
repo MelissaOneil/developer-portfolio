@@ -13,7 +13,7 @@ export const projectsData = [
         code: '',
         demo: '',
         image: 'https://www.shutterstock.com/image-photo/notepad-your-recipe-herbs-spices-260nw-370298699.jpg',
-        url: 'https://magenta-madeleine-6bc256.netlify.app/',
+        // url: 'https://magenta-madeleine-6bc256.netlify.app/',
     },
     {
         id: 2,
