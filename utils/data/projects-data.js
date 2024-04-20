@@ -6,14 +6,14 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'Recipe Database',
-        description: "A React web application to organize and manage recipes. Users can add, and delete their own recipes in a personal cookbook. Recipes are displayed in an attractive list view, with key details like title, ingredients, instructions, and images.",
-        tools: ['React', 'Babel', 'Firebase', 'Json', 'CSS', 'HTML', 'JavaScript', 'Netlify'],
-        role: 'Full Stack Developer',
+        name: 'Wedding Website',
+        description: "A Webpage for a wedding event. The webpage is designed to provide information about the wedding event, the couple, the venue, and the wedding program. The webpage also allows guests to RSVP to the event.",
+        tools: ['Scss', 'CSS', 'HTML', 'JavaScript', 'Netlify'],
+        role: 'Website Developer - personal project',
         code: '',
         demo: '',
         image: 'https://www.shutterstock.com/image-photo/notepad-your-recipe-herbs-spices-260nw-370298699.jpg',
-        // url: 'https://magenta-madeleine-6bc256.netlify.app/',
+        url: 'https://main--cassietommywedding.netlify.app/',
     },
     {
         id: 2,
@@ -47,7 +47,18 @@ export const projectsData = [
         image: 'https://media.istockphoto.com/id/1152614033/vector/think-positive-feel-positive-live-positive-for-fashion-shirts-poster-gift-or-other-printing.jpg?s=612x612&w=0&k=20&c=mlCyH7u5SBcfUd5xDC6mddlLbZ_9u1mbwWULulwLsJw=',
         role: 'Full Stack Developer',
         url: 'https://sparkly-axolotl-b60103.netlify.app/',
-    }
+    },
+    {
+        id: 5,
+        name: 'Recipe Database',
+        description: "A React web application to organize and manage recipes. Users can add, and delete their own recipes in a personal cookbook. Recipes are displayed in an attractive list view, with key details like title, ingredients, instructions, and images.",
+        tools: ['React', 'Babel', 'Firebase', 'Json', 'CSS', 'HTML', 'JavaScript', 'Netlify'],
+        role: 'Full Stack Developer',
+        code: '',
+        demo: '',
+        image: 'https://www.shutterstock.com/image-photo/notepad-your-recipe-herbs-spices-260nw-370298699.jpg',
+        // url: 'https://magenta-madeleine-6bc256.netlify.app/',
+    },
 ];
 
 
