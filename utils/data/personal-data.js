@@ -2,7 +2,7 @@ export const personalData = {
   name: "Melissa O'Neil",
   profile: '/profile.png',
   designation: "Software Developer",
-  description: "My name is Melissa O'Neil. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "My name is Melissa O'Neil. I am a motivated software developer with a proven track record of enhancing and expanding complex projects through research-driven feature implementation. Experienced in identifying system deficiencies and devising innovative software solutions, including integrating error logging systems and utilizing APIs for accessing services. Adept at translating research insights into actionable improvements to optimize functionality and user experience.",
   email: 'melissaoneil1@outlook.com',
   phone: '8015131171',
   address: 'Clearfield, UT 84015',
@@ -13,5 +13,5 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/',
   leetcode: "https://leetcode.com/",
   devUsername: "NA",
-  resume: "https://drive.google.com/file/d/10DUQ1myyOsG1cRF6fZCpl99_MTeJdwpK/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/110POlciKmeZFzqi_GRsUkROyKdBK8I_B/view?usp=sharing"
 }
