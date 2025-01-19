@@ -9,8 +9,8 @@ import './css/globals.scss';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Melissa ONeil-Portfolio',
-  description: 'This is the portfolio of Melissa Oneil. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. I am available for any kind of job opportunity that suits my skills and interests.',
+  title: 'Melissa ONeil: Passionate Software Developer & Problem Solver',
+  description: 'I am a dedicated and enthusiastic software developer with a passion for creating innovative web applications. My expertise lies in full-stack development, and I thrive on exploring new technologies to expand my skill set. With a self-driven learning attitude, I quickly adapt to emerging trends and tools in the ever-evolving tech landscape.',
 }
 
 export default function RootLayout({ children }) {
