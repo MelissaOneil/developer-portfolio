@@ -2,7 +2,7 @@ export const educations = [
   {
     id: 1,
     title: "Pursuing Master of Science in Computer Science ",
-    duration: "2018 - May 2024",
+    duration: "August 2024 - Present",
     institution: "Weber State University",
   },
   {
