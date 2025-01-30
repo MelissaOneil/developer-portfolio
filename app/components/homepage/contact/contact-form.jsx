@@ -40,7 +40,7 @@ function ContactForm() {
     const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
     
     // try {
-    console.log(serviceID, templateID, publicKey);
+    //console.log(serviceID, templateID, publicKey);
     emailjs.sendForm(serviceID, templateID, form.current, publicKey)
     .then(()=>{
       toast.success('Message sent successfully!');
@@ -53,20 +53,6 @@ function ContactForm() {
     (error) => {
       toast.error(error?.text || error);
     }
-
-      // const res = await emailjs.send(serviceID, templateID, input, options);
-
-      // if (res.status === 200) {
-      //   toast.success('Message sent successfully!');
-      //   setInput({
-      //     name: '',
-      //     email: '',
-      //     message: '',
-      //   });
-      // };
-    // } catch (error) {
-    //   toast.error(error?.text || error);
-    // };
   };
 
   return (
@@ -84,6 +70,7 @@ function ContactForm() {
             <input
               className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
               type="text"
+              name='name'
               maxLength="100"
               required={true}
               onChange={(e) => setInput({ ...input, name: e.target.value })}
@@ -97,6 +84,7 @@ function ContactForm() {
             <input
               className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
               type="email"
+              name='email'
               maxLength="100"
               required={true}
               value={input.email}
